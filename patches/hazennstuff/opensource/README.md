@@ -1,25 +1,132 @@
+# HazennStuff 1.4.0.14 Dedicated Server Fix
 
-Installation information
-=======
+Unofficial open-source patch for **HazennStuff 1.4.0.14** on **Minecraft 1.21.1 NeoForge**.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+This repository contains the source code of the patch used to fix a dedicated-server class-loading error caused by HazennStuff.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+## Problem
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+When running **HazennStuff 1.4.0.14** on a dedicated **Minecraft 1.21.1 NeoForge** server, the following error can occur:
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+```text
+Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+```
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+This happens when client-only Minecraft code is attempted to be loaded in a dedicated server environment.
+
+## What this project does
+
+This patch is designed to prevent the affected client-only code from being loaded on a dedicated server.
+
+The patch is intended to be used together with the original **HazennStuff 1.4.0.14** mod.
+
+It does not replace or include the original HazennStuff mod.
+
+## Compatibility
+
+* **Minecraft:** 1.21.1
+* **Loader:** NeoForge
+* **Original mod:** HazennStuff 1.4.0.14
+* **Patch version:** 1.0.0
+
+## Source code
+
+The source code is located in:
+
+```text
+src/main/java/
+src/main/resources/
+```
+
+The project uses Gradle and includes the Gradle Wrapper, so the project can be built without installing Gradle separately.
+
+## Building
+
+Clone or download this repository, then run the appropriate Gradle Wrapper command from the project directory.
+
+### Windows
+
+```text
+gradlew.bat build
+```
+
+### Linux / macOS
+
+```text
+./gradlew build
+```
+
+The resulting JAR file will be generated in:
+
+```text
+build/libs/
+```
+
+## Using the compiled patch
+
+The compiled patch is available from the project's GitHub Releases.
+
+Download:
+
+```text
+hazennstuff_patch-1.0.0.jar
+```
+
+Place the patch JAR into the server's `mods` folder together with the original:
+
+```text
+hazennstuff-1.4.0.14.jar
+```
+
+## Important
+
+This project does **not** contain the original HazennStuff mod.
+
+You must obtain and install **HazennStuff 1.4.0.14** separately.
+
+This is an unofficial community patch and is not affiliated with, endorsed by, or distributed by the original HazennStuff developers.
+
+## Repository structure
+
+```text
+opensource/
+├── gradle/
+│   └── wrapper/
+├── src/
+│   └── main/
+│       ├── java/
+│       └── resources/
+├── build.gradle
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+└── settings.gradle
+```
+
+## Error keywords
+
+This project may be relevant to users searching for:
+
+* HazennStuff 1.4.0.14 error
+* HazennStuff 1.4.0.14 fix
+* HazennStuff 1.4.0.14 patch
+* HazennStuff NeoForge 1.21.1
+* HazennStuff dedicated server
+* HazennStuff dedicated server crash
+* HazennStuff DEDICATED_SERVER
+* `Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER`
+* `net/minecraft/client/Minecraft`
+* `invalid dist DEDICATED_SERVER`
+* Minecraft 1.21.1 NeoForge dedicated server error
+
+## License
+
+See the license file included in this repository.
+
+## Disclaimer
+
+This project is an unofficial community-created patch.
+
+**HazennStuff** and its associated assets and code belong to their respective authors.
+
+This repository does not claim ownership of the original HazennStuff mod.

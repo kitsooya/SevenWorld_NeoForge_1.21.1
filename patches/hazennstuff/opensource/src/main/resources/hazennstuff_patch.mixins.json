@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.kitsooya.hazennstuffpatch.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PendantOfHarmonyCurioMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

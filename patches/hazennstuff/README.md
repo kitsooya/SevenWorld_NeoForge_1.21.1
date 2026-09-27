@@ -1,26 +1,43 @@
-# HazennStuff 1.4.0.14 Patch
+# HazennStuff 1.4.0.14 Fix / Patch
 
-Unofficial patch for HazennStuff 1.4.0.14 used by the SevenWorld Minecraft server.
+Unofficial fix for **HazennStuff 1.4.0.14** on **Minecraft 1.21.1 NeoForge**.
+
+## Problem
+
+When running HazennStuff 1.4.0.14 on a dedicated NeoForge 1.21.1 server, the following error can occur:
+
+```text
+Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+```
+
+This indicates that client-side Minecraft code is being loaded on the dedicated server.
 
 ## Compatibility
 
-- Minecraft: 1.21.1
-- Loader: NeoForge
-- HazennStuff: 1.4.0.14
-- Patch version: 1.0.0
+* Minecraft: `1.21.1`
+* Loader: `NeoForge`
+* HazennStuff: `1.4.0.14`
+* Patch: `1.0.0`
 
 ## Installation
 
-Download the patch from the corresponding GitHub Release and place the `.jar` file into the server's `mods` folder.
+1. Make sure **HazennStuff 1.4.0.14** is installed.
+2. Download `hazennstuff_patch-1.0.0.jar` from the [Releases](../../releases) section.
+3. Place the patch `.jar` into the server's `mods` folder.
+4. Start the server.
 
-HazennStuff 1.4.0.14 is required separately.
+## What does this patch fix?
 
-## Purpose
+This patch is intended to prevent the client-only `net/minecraft/client/Minecraft` class from being loaded in a dedicated server environment.
 
-This patch fixes a compatibility/error issue encountered with HazennStuff 1.4.0.14.
+## Important
 
-## Disclaimer
+This patch does **not** include the original HazennStuff mod.
 
-This is an unofficial community patch.
+You must install **HazennStuff 1.4.0.14** separately.
 
-The original HazennStuff mod is not included in this repository and remains the property of its respective author.
+This is an unofficial community patch and is not affiliated with or endorsed by the original HazennStuff developers.
+
+## Keywords
+
+HazennStuff 1.4.0.14 fix, HazennStuff 1.4.0.14 patch, HazennStuf

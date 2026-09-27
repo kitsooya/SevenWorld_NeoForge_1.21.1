@@ -10,6 +10,9 @@ When running HazennStuff 1.4.0.14 on a dedicated NeoForge 1.21.1 server, the fol
 Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
 ```
 
+HazennStuff 1.4.0.14 Fix for Minecraft 1.21.1 NeoForge.
+Fixes the Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER error on dedicated servers.
+
 This indicates that client-side Minecraft code is being loaded on the dedicated server.
 
 ## Compatibility

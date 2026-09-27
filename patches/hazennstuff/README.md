@@ -42,4 +42,4 @@ This is an unofficial community patch and is not affiliated with or endorsed by 
 
 ## Search terms
 
-HazennStuff 1.4.0.14 fix, HazennStuff 1.4.0.14 patch, HazennStuff NeoForge 1.21.1, HazennStuff dedicated server, HazennStuff dedicated server fix, HazennStuff DEDICATED_SERVER, net/minecraft/client/Min_
+HazennStuff 1.4.0.14 fix, HazennStuff 1.4.0.14 patch, HazennStuff NeoForge 1.21.1, HazennStuff dedicated server, HazennStuff dedicated server fix, HazennStuff DEDICATED_SERVER, net/minecraft/client/Minecraft, invalid dist DEDICATED_SERVER, Minecraft 1.21.1 dedicated server error, NeoForge dedicated server error, HazennStuff server crash, HazennStuff server error.

@@ -1,10 +1,6 @@
 # SevenWorld_NeoForge_1.21.1
 SevenWorld Minecraft server files, patches and configurations for NeoForge 1.21.1.
 
-# SevenWorld
-
-Repository containing files, patches, configurations and other resources related to the **SevenWorld Minecraft server**.
-
 ## Contents
 
 This repository is used to publish and maintain various files related to the server, including:

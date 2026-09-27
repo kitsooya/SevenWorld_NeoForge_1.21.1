@@ -24,7 +24,7 @@ Since client classes are not available in the dedicated server environment, the 
 ## Installation
 
 1. Make sure **HazennStuff 1.4.0.14** is installed.
-2. Download `hazennstuff_patch-1.0.0.jar` from the [Releases](../../releases) section.
+2. Download `hazennstuff_patch-1.0.0.jar` from the [Releases](https://github.com/kitsooya/SevenWorld_NeoForge_1.21.1/releases) section.
 3. Place the patch `.jar` into the server's `mods` folder.
 4. Start the server.
 

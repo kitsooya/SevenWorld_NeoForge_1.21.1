@@ -4,13 +4,15 @@ Unofficial fix for **HazennStuff 1.4.0.14** on **Minecraft 1.21.1 NeoForge**.
 
 ## Problem
 
-When running HazennStuff 1.4.0.14 on a dedicated NeoForge 1.21.1 server, the following error can occur:
+When running HazennStuff 1.4.0.14 on a dedicated NeoForge 1.21.1 server, processing the name/text of an affected Curios accessory can cause the following error:
 
 ```text
 Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
 ```
 
-This indicates that client-side Minecraft code is being loaded on the dedicated server.
+The affected code path attempts to load the client-only `net/minecraft/client/Minecraft` class while running on a dedicated server.
+
+Since client classes are not available in the dedicated server environment, the server crashes.
 
 ## Compatibility
 
@@ -28,9 +30,17 @@ This indicates that client-side Minecraft code is being loaded on the dedicated 
 
 ## What does this patch fix?
 
-This patch is intended to prevent the client-only `net/minecraft/client/Minecraft` class from being loaded in a dedicated server environment.
+The patch changes the name/text handling of the affected HazennStuff Curios accessory.
 
-It is designed for servers running **Minecraft 1.21.1 with NeoForge** and **HazennStuff 1.4.0.14**.
+It prevents the problematic client-only code path from being executed on a dedicated server, avoiding the `net/minecraft/client/Minecraft` loading error.
+
+The original HazennStuff mod is not modified. The patch is loaded separately alongside **HazennStuff 1.4.0.14**.
+
+## How does it work?
+
+The patch uses a **Mixin** to modify the affected method in HazennStuff.
+
+The patched implementation uses the item's existing hover name instead of allowing the original implementation to enter the client-only code path.
 
 ## Important
 

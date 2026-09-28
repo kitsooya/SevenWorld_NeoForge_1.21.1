@@ -1,0 +1,351 @@
+mod_id,mod_name,mod_version,mod_file,mod_url,display_url,issue_tracker_url
+almanac,Almanac,1.5.2,Almanac-1.21.1-2-neoforge-1.5.2.jar,,,https://github.com/frikinjay/almanac
+supermartijn642configlib,SuperMartijn642's Config Library,1.1.8,supermartijn642configlib-1.1.8-neoforge-mc1.21.jar,,https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib,https://github.com/SuperMartijn642/SuperMartijn642sConfigLib/issues
+creategarnished,Create: Garnished,0.1.7.4,creategarnished-0.1.7.4+1.21.1-neoforged.jar,,,
+gunsmithlib,GunsmithLib,6.4.2,gunsmithlib-neoforge-1.21.1-tacz1.1.8-6.4.2.jar,,,
+createdeco,Create Deco,2.1.3,createdeco-2.1.3.jar,,,https://github.com/talrey/CreateDeco/
+playeranimator,Player Animator,2.0.4+1.21.1,player-animation-lib-forge-2.0.4+1.21.1.jar,,https://github.com/KosmX/minecraftPlayerAnimator,
+slashblade,Slash Blade:Resharpened,2.0.7-1.21.1,SlashBladeResharped-2.0.7-1.21.1.jar,,https://minecraft.curseforge.com/projects/slashblade,
+aeronautics_bundled,Create Aeronautics,1.3.2,create-aeronautics-bundled-1.21.1-1.3.2.jar,,,
+apollib,Apollib,1.2.0,apollib-1.2.0-neoforge-21.1.jar,,,
+gtbcs_geomancy_plus,GTBC's Geomancy Plus,1.1.0-1.21.1,gtbcs_geomancy_plus-1.1.0-1.21.1.jar,,,
+dreamless_spells,Dreamless Spells,1.1.9,dreamless_spells-1.1.9.jar,,,
+mcwwindows,Macaw's Windows,2.4.2,mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar,,https://www.curseforge.com/minecraft/mc-mods/macaws-windows,
+neoforge,NeoForge,21.1.249,neoforge-21.1.249-universal.jar,,,https://github.com/neoforged/NeoForge/issues
+modernfix,ModernFix,5.27.23+mc1.21.1,modernfix-neoforge-5.27.23+mc1.21.1.jar,,https://modrinth.com/mod/modernfix,https://github.com/embeddedt/ModernFix/issues
+krypton_fnp,Krypton FNP,0.2.28.1-1.21.1,krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar,,https://www.curseforge.com/minecraft/mc-mods/krypton-fnp,https://github.com/404Setup/KryptonFNP/issues
+yungsapi,YUNG's API,1.21.1-NeoForge-5.1.6,YungsApi-1.21.1-NeoForge-5.1.6.jar,,https://www.curseforge.com/minecraft/mc-mods/yungs-api-neoforge,https://github.com/yungnickyoung/YUNGs-Api/issues
+magic_realms,Magic Realms,1.2,magic_realms-1.2-PATCHED.jar,,,
+veil,Veil,4.3.2,veil-neoforge-1.21.1-4.3.2.jar,,https://modrinth.com/project/veil,https://github.com/FoundryMC/Veil/issues
+biolith,Biolith,3.0.14,biolith-neoforge-3.0.14.jar,,https://modrinth.com/mod/biolith,https://github.com/TerraformersMC/Biolith/issues
+createreautomated,Create ReAutomated,0.2.0,createreautomated-1.21.1-neoforge-0.2.0.jar,,,
+caster_curios_bonus,Caster Curios Bonus,1.21.1-1.1.1,CasterCuriosBonus-1.21.1-1.1.1.jar,,,
+createdieselgenerators,Create Diesel Generators,1.21.1-1.3.15,createdieselgenerators-1.21.1-1.3.15.jar,,,
+terra_curio,TerraCurio,1.3.1,terra_curio-1.3.1.jar,,,
+balm,Balm,21.0.56,balm-neoforge-1.21.1-21.0.56.jar,,https://mods.twelveiterations.com/,https://github.com/TwelveIterationMods/Balm/issues
+create_new_age,Create: New Age,1.2.0+mc1.21.1,create-new-age-1.2.0+neoforge-mc1.21.1.jar,,https://antarcticgardens.org/,https://gitlab.com/antarcticgardens/create-new-age
+prickle,PrickleMC,21.1.11,prickle-neoforge-1.21.1-21.1.11.jar,,https://www.curseforge.com/minecraft/mc-mods/prickle,https://github.com/Darkhax-Minecraft/PrickleMC/issues
+crash_assistant,Crash Assistant,1.11.9,crash_assistant-neoforge.jar,,,https://github.com/KostromDan/Crash-Assistant/issues
+cloth_config,Cloth Config v15 API,15.0.140,cloth-config-15.0.140-neoforge.jar,,,https://github.com/architectury/ClothConfig/issues/
+stackrefill,Stack Refill,4.9,stackrefill-1.21.1-4.9.jar,,https://serilum.com/mod/stack-refill,https://github.com/Serilum/.issue-tracker/labels/Mod:%20Stack%20Refill
+reliable_remover,Reliable Remover,2.8.0,reliable_remover-neoforge-1.21.1-2.8.0.jar,,,https://github.com/evanbones/Reliable-Remover/issues
+discerning_the_eldritch,Discerning The Eldritch,1.4.3-1.21,discerning_the_eldritch-1.4.3-1.21.jar,,,
+ldlib2,LowDragLib2,2.2.37,ldlib2-neoforge-1.21.1-2.2.37-all.jar,,https://github.com/Low-Drag-MC/LDLib2,
+lmft,Load My F***ing Tags,1.1.1+1.21.9,lmft-1.1.1+1.21.9-neoforge.jar,,,
+glodium,Glodium,1.21-2.2-neoforge,Glodium-1.21-2.2-neoforge.jar,,https://github.com/GlodBlock/Glodium,
+handcrafted,Handcrafted,4.0.3,handcrafted-neoforge-1.21.1-4.0.3.jar,,https://modrinth.com/mod/handcrafted,https://github.com/terrarium-earth/handcrafted/issues
+aces_spell_utils,Ace's Spell Utils,1.2.7.1-1.21.1,aces_spell_utils-1.2.7.1-1.21.1.jar,,,
+repurposed_structures,Repurposed Structures,7.5.22+1.21.1-neoforge,repurposed_structures-7.5.22+1.21.1-neoforge.jar,,https://www.curseforge.com/minecraft/mc-mods/repurposed-structures,https://github.com/TelepathicGrunt/RepurposedStructures/issues
+bcc,Better Compatibility Checker,21.1.8,better-compatability-checker-neoforge-21.1.8.jar,,https://github.com/nanite/BetterCompatibilityChecker,https://github.com/nanite/BetterCompatibilityChecker/issues
+spellcastingmobs,Arcane Adversaries,1.0.0,Arcane-Adversaries-1.21.1-NeoForge-1.1.0.jar,,,
+wind_spellbooks,Wind's Spellbooks : Iron's Spells 'n Spellbooks Addon,1.0.5,wind_spellbooks-1.0.5.jar,,,
+ironfurnaces,Iron Furnaces,4.3.2,ironfurnaces-neoforge-1.21.1-4.3.2.jar,,,
+jupiter,Jupiter,2.3.7,jupiter-2.3.7-1.21.1-neoforge.jar,,,https://github.com/IAFEnvoy/Jupiter/issues
+mcwtrpdoors,Macaw's Trapdoors,1.1.5,mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar,,https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors,
+irons_spells_dynamic_skilltree,Iron's Spells 'n Spellbooks Dynamic Skill Tree,1.1.0,irons_spells_dynamic_skilltree_1.1.0.jar,,,
+aero_additions,SnackPirate's Aeromancy Additions,1.2.8,aero_additions-1.2.8.jar,,,
+supermartijn642corelib,SuperMartijn642's Core Lib,1.1.24,supermartijn642corelib-1.1.24-neoforge-mc1.21.jar,,https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib,https://github.com/SuperMartijn642/SuperMartijn642sCoreLib/issues
+servercore,ServerCore,1.5.19+1.21.1,servercore-neoforge-1.5.19+1.21.1.jar,,https://github.com/Wesley1808/ServerCore,https://github.com/Wesley1808/ServerCore/issues
+spark,spark,1.10.124,spark-1.10.124-neoforge.jar,,,
+curios,Curios API,9.5.1+1.21.1,curios-neoforge-9.5.1+1.21.1.jar,,https://github.com/TheIllusiveC4/Curios,https://github.com/TheIllusiveC4/Curios/issues
+create_factory,Create: Factory,0.7a-1.21.1,create_factory-0.7a-1.21.1.jar,,,
+searchables,Searchables,1.0.2,Searchables-neoforge-1.21.1-1.0.2.jar,,https://www.curseforge.com/minecraft/mc-mods/searchables,https://github.com/jaredlll08/searchables/issues
+createornithopterglider,Create: Ornithopter Glider,1.2.0-1.21.1,createornithopterglider-1.2.0-1.21.1.jar,,https://www.curseforge.com/minecraft/mc-mods/create-ornithopter-glider,
+sbr_core,mrqx`s Slashblade Core,1.4.4,mrqxs_Slashblade_Core-1.21.1-1.4.4.jar,,,
+mcwroofs,Macaw's Roofs,2.3.2,mcw-roofs-2.3.2-mc1.21.1neoforge.jar,,https://www.curseforge.com/minecraft/mc-mods/macaws-roofs,
+mcwfurnitures,Macaw's Furniture,3.4.1,mcw-furniture-3.4.1-mc1.21.1neoforge.jar,,https://www.curseforge.com/minecraft/mc-mods/macaws-furniture,
+apothic_enchanting,Apothic Enchanting,1.6.1,ApothicEnchanting-1.21.1-1.6.1.jar,,,
+jadeaddons,Jade Addons,6.1.0+neoforge,JadeAddons-1.21.1-NeoForge-6.1.0.jar,,https://www.curseforge.com/minecraft/mc-mods/jade-addons,
+infiniverse,Infiniverse,2.0.1.0,infiniverse-568341-5486311.jar,,https://www.curseforge.com/minecraft/mc-mods/infiniverse,https://github.com/Commoble/infiniverse/issues
+codechickenlib,CodeChicken Lib,4.6.1.526,CodeChickenLib-1.21.1-4.6.1.526.jar,,https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8,https://github.com/TheCBProject/CodeChickenLib
+cb_multipart,CBMultipart,3.5.0.155,CBMultipart-1.21.1-3.5.0.155.jar,,https://github.com/TheCBProject/CBMultipart,https://github.com/TheCBProject/ForgeMultipart
+cb_microblock,CBMicroblock,3.5.0.155,CBMultipart-1.21.1-3.5.0.155.jar,,https://github.com/TheCBProject/CBMultipart,https://github.com/TheCBProject/ForgeMultipart
+cb_multipart_minecraft,CBMultipart Minecraft,3.5.0.155,CBMultipart-1.21.1-3.5.0.155.jar,,https://github.com/TheCBProject/CBMultipart,https://github.com/TheCBProject/ForgeMultipart
+hazentouvelib,HazentouveLib,1.0.9,hazentouvelib-1.0.9.jar,,,
+iss_magicfromtheeast,ISS: Magic From The East,1.1.5,iss_magicfromtheeast-1.1.5.jar,,,
+mcwlights,Macaw's Lights and Lamps,1.1.5,mcw-lights-1.1.5-mc1.21.1neoforge.jar,,https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps,
+smartbrainlib,SmartBrainLib,1.16.11,SmartBrainLib-neoforge-1.21.1-1.16.11.jar,,,https://github.com/Tslat/SmartBrainLib/issues
+mowziesmobs,Mowzie's Mobs,1.8.2,mowziesmobs-1.21.1-1.8.2.jar,,,https://github.com/BobMowzie/MowziesMobs/issues
+compat_manager,Compat Manager,1.0.7,compat_manager-1.21.1-1.0.7.jar,,https://liukrast.net/,https://github.com/LIUKRAST/CompatManager/issues
+createtransmission,Create: Transmission,1.2.1+neoforge-create6-1.21.1,createtransmission-1.2.1+neoforge-create6-1.21.1.jar,,,
+bits_n_bobs,Create Bits 'n' Bobs,0.0.44,bits_n_bobs-0.0.44.jar,,,
+create_optical,Create Optical Mod,0.4.2,create_optical-0.4.2.jar,,,
+jei,Just Enough Items,19.50.0.414,jei-1.21.1-neoforge-19.50.0.414.jar,,https://www.curseforge.com/minecraft/mc-mods/jei,https://github.com/mezz/JustEnoughItems/issues?q=is%3Aissue
+lithostitched,Lithostitched,1.8.0+beta4,lithostitched-1.8.0+beta4-neoforge-21.1.jar,,,
+irons_lib,Iron's Lib,1.21.1-2.1.0,irons_lib-1.21.1-2.1.0.jar,,,
+aeronautics,Create Aeronautics,1.3.2,dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar,,,
+visualworkbench,Visual Workbench,21.1.1,VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar,,https://github.com/Fuzss/visualworkbench,https://github.com/Fuzss/visualworkbench/issues
+lithium,Lithium,0.15.3+mc1.21.1,lithium-neoforge-0.15.3+mc1.21.1.jar,,,
+yes_steve_model,Yes Steve Model,2.6.5-neoforge+mc1.21.1,ysm-2.6.5-neoforge+mc1.21.1-release.jar,,https://ysm.cfpa.team/,https://github.com/YesSteveModel/YSM-Wiki-Issues/issues
+caelus,Caelus API,7.0.1+1.21.1,caelus-neoforge-7.0.1+1.21.1.jar,,https://github.com/illusivesoulworks/caelus,https://github.com/illusivesoulworks/caelus/issues
+paxi,Paxi,1.21.1-NeoForge-5.1.3,Paxi-1.21.1-NeoForge-5.1.3.jar,,https://www.curseforge.com/minecraft/mc-mods/paxi-neoforge,https://github.com/yungnickyoung/Paxi/issues
+firesenderexpansion,Fire's Ender Expansion,2.4.1,firesenderexpansion-2.4.1.jar,,,
+nedologin,Nedologin,3.0.0-rc3,nedologin-3.0.0-rc3-1.21.1-fabric-neoforge.jar,,https://modrinth.com/mod/nedologin,https://github.com/Ariss-Interactive/nedologin/issues
+immersive_optimization,Immersive Optimization,0.1.6,immersive_optimization-neoforge-1.21-0.1.6.jar,,https://conczin.net/,https://github.com/Luke100000/ImmersiveOptimization/issues
+naturescompass,Nature's Compass,1.21.1-3.4.0-neoforge,NaturesCompass-1.21.1-3.4.0-neoforge.jar,,https://github.com/MattCzyr/NaturesCompass,https://github.com/MattCzyr/NaturesCompass/issues
+epherolib,EpheroLib,1.2.0,EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar,,https://discord.gg/GZjtAn3F6W,
+smarterfarmers,Smarter Farmers,1.21-2.2.4,smarterfarmers-1.21-2.2.4-neoforge.jar,https://www.curseforge.com/minecraft/mc-mods/smarter-farmers,,https://github.com/MehVahdJukaar/smarter_farmers/issues
+dimensiontickrate,Dimension Tickrate,1.0.0,dimensiontickrate-1.0.0.jar,,,
+create_wizardry,Create: Wizardry,1.21.1-0.5.1-pre1,create_wizardry-1.21.1-0.5.1-pre1.jar,,,
+compactmachines,Compact Machines,7.0.81,compactmachines-neoforge-7.0.81.jar,,https://compactmods.dev,
+wizardshelp,Wizards Help,1.0,wizardshelp-1.0.0.jar,,,
+glitchcore,GlitchCore,2.1.0.2,GlitchCore-neoforge-1.21.1-2.1.0.2.jar,,,https://github.com/Glitchfiend/GlitchCore/issues
+neruina,Neruina,3.3.3,neruina-3.3.3+1.21.1-neoforge.jar,,,https://github.com/Bawnorton/Neruina/issues
+darkermagic,Deeper and Darker: Spellbooks,1.3.3-1.21.1,darkermagic-1.3.3-1.21.1-ver.b.jar,,,
+craterlib,CraterLib,3.1.2,CraterLib-Neoforge-1.21-3.1.2.jar,,https://modrinth.com/mod/craterlib,https://github.com/firstdarkdev/craterLib/issues
+iceandfire,Ice And Fire Community Edition,2.1.2,iceandfire-2.1.2.jar,,,https://github.com/IAFEnvoy/IceAndFire-CE/issues
+valiant,Valiant,0.0.1,valiant-0.0.1.jar,,,
+offroad,Create Offroad,1.3.2,dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.2.jar,,,
+mcwpaths,Macaw's Paths and Pavings,1.1.1,mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar,,https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings,
+minecraft,Minecraft,1.21.1,server-1.21.1-20240808.144430-srg.jar,,,
+create_deep_dark,Create: Deep Dark,3.0.2,create_deep_dark-3.0.2-neoforge-1.21.1.jar,,https://www.curseforge.com/members/robinfrt/projects,
+better_create,better create,1.0.0,better_create-1.0.0-neoforge-1.21.1.jar,,https://mcreator.net,
+tablist,Tab List,1.5,tablist-neoforge-1.21.1-1.5.jar,,,
+voicechat,Simple Voice Chat,1.21.1-2.6.22,voicechat-neoforge-1.21.1-2.6.22.jar,,https://modrepo.de/minecraft/voicechat/overview,https://github.com/henkelmax/simple-voice-chat/issues
+voicechat_api,Simple Voice Chat API,2.6.20,voicechat-neoforge-1.21.1-2.6.22.jar,,https://voicechat.modrepo.de/,https://github.com/henkelmax/simple-voice-chat/issues
+fabric_api_base,Forgified Fabric API Base,0.4.42+d1308dedd1,fabric-api-base-0.4.42+d1308dedd1.jar,,https://github.com/Sinytra/ForgifiedFabricAPI,https://github.com/Sinytra/ForgifiedFabricAPI/issues
+terrablender,TerraBlender,4.1.0.8,TerraBlender-neoforge-1.21.1-4.1.0.8.jar,,,https://github.com/Glitchfiend/TerraBlender/issues
+createoreexcavation,Create Ore Excavation,1.6.8,createoreexcavation-1.21-1.6.8.jar,,https://www.curseforge.com/minecraft/mc-mods/create-ore-excavation,https://github.com/tom5454/Create-Ore-Excavation/issues
+nochatreports,No Chat Reports,1.21.1-v2.9.1,NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar,,https://www.curseforge.com/minecraft/mc-mods/no-chat-reports,https://github.com/Aizistral-Studios/No-Chat-Reports/issues
+alltheleaks,All The Leaks,1.1.12+1.21.1-neoforge,alltheleaks-1.1.12+1.21.1-neoforge.jar,,,
+particlestorm,ParticleStorm,1.3.0,ParticleStorm-1.3.0.jar,,,
+corgilib,CorgiLib,5.0.0.9,Corgilib-NeoForge-1.21.1-5.0.0.9.jar,,https://github.com/CorgiTaco/CorgiLib,https://github.com/CorgiTaco/CorgiLib/issues
+forgeconfigapiport,Forge Config API Port,21.1.1,forgeconfigapiport-neoforge-21.1.1.jar,,https://github.com/Fuzss/forgeconfigapiport,https://github.com/Fuzss/forgeconfigapiport/issues
+create_aquatic_ambitions,Create Aquatic Ambitions,2.0.4,create_aquatic_ambitions-1.21.1-2.0.4.jar,,,https://github.com/davioliva16/create-aquatic-ambitions/issues
+kotlinforforge,Kotlin For Forge,5.12.0,thedarkcolour.kffmod-5.12.0.jar,,,
+pipez,Pipez,1.21.1-1.2.19,pipez-neoforge-1.21.1-1.2.19.jar,,https://www.curseforge.com/minecraft/mc-mods/pipez,https://github.com/henkelmax/pipez/issues
+asterismarcanum,Asterism Arcanum,1.21.1-0.1.0,asterismarcanum-1.21.1-0.1.0.jar,,,
+curios_for_ammo_box,Curios for Ammo Box,1.2.0,curios_for_ammo_box-1.21.1-1.2.0.jar,,,
+sablecompanion,Sable Companion,1.6.0,sable-companion-common-1.21.1-1.6.0.jar,,,https://github.com/ryanhcode/sable-companion/issues
+flywheel,Flywheel,1.0.6,flywheel-neoforge-1.21.1-1.0.6.jar,,https://github.com/Engine-Room/Flywheel,https://github.com/Engine-Room/Flywheel/issues
+ponder,Ponder,1.0.87+mc1.21.1,ponder-neoforge-1.0.87+mc1.21.1.jar,,https://github.com/Creators-of-Create/Ponder,https://github.com/Creators-of-Create/Ponder/issues
+gravestone,Gravestone Mod,1.21.1-1.0.40,gravestone-neoforge-1.21.1-1.0.40.jar,,https://www.curseforge.com/minecraft/mc-mods/gravestone-mod,https://github.com/henkelmax/gravestone/issues
+polymorph,Polymorph,1.1.0+1.21.1,polymorph-neoforge-1.1.0+1.21.1.jar,,https://github.com/illusivesoulworks/polymorph,https://github.com/illusivesoulworks/polymorph/issues
+almostunified,AlmostUnified,1.21.1-1.4.2,almostunified-neoforge-1.21.1-1.4.2.jar,,,https://github.com/AlmostReliable/almostunified/issues
+disconnect_packet_fix,Disconnect Packet Fix,2.0.1,disconnect-packet-fix-neoforge-2.0.1.jar,,,https://github.com/ascpixi/disconnect-packet-fix/issues
+lambdynlights_api,LambDynamicLights (API),4.5.1+1.21.1,lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar,,https://lambdaurora.dev/projects/lambdynamiclights,https://github.com/LambdAurora/LambDynamicLights/issues
+xfws_someitems,xfws_someitems,0.0.2,xfws_someitems-0.0.7.jar,,,https://github.com/xiaofanwei123/NeoForge-1.21
+majospellenchantment,Majo's Spell Enchantment,1.21.1-1.2.0,MajoSpellEnchantment-NeoForge-1.21.1-1.2.0.jar,,,
+puzzleslib,Puzzles Lib,21.1.51,PuzzlesLib-v21.1.51-1.21.1-NeoForge.jar,,https://github.com/Fuzss/puzzleslib,https://github.com/Fuzss/puzzleslib/issues
+kuroutils,Kuro Utils,2101.2.5.0,kuroutils2-2101.2.5.0.jar,,,
+addonslib,Addons Lib,1.21.1-1.10,addonslib-neoforge-1.21.1-1.10.jar,,https://www.curseforge.com/minecraft/mc-mods/addonslib,https://github.com/Samlegamer/AddonsLib/issues
+configurable,Configurable,3.5.2,configurable-3.5.2+1.21.1-neoforge.jar,,,https://github.com/Bawnorton/Configurable/issues
+familiarslib,FamiliarsLib,1.21.1-1.7,familiarslib-1.21.1-1.7.1.jar,,,
+kuma_api,KumaAPI,21.0.7,kuma-api-neoforge-21.0.7+1.21.jar,,https://mods.twelveiterations.com/mc/kuma,https://github.com/TwelveIterationMods/Kuma/issues
+netherportalfix,NetherPortalFix,21.1.1,netherportalfix-neoforge-1.21.1-21.1.1.jar,,https://mods.twelveiterations.com/,https://github.com/TwelveIterationMods/Balm/issues
+geckolib,GeckoLib 4,4.9.2,geckolib-neoforge-1.21.1-4.9.2.jar,,http://geckolib.com/,https://github.com/bernie-g/geckolib/issues
+ars_nouveau,Ars Nouveau,5.13.1,ars_nouveau-1.21.1-5.13.1.jar,,,https://github.com/baileyholl/Ars-Nouveau
+incontrol,InControl,1.21-10.2.7,incontrol-1.21-10.2.7.jar,,,http://github.com/McJtyMods/InControl/issues
+connectivity,Connectivity Mod,7.6,connectivity-1.21.1-7.6.jar,,,
+incendium,Incendium,5.4.3,Incendium_1.21.x_v5.4.4.jar,,https://www.stardustlabs.net/,https://github.com/Stardust-Labs-MC/Incendium/issues
+sophisticatedcore,Sophisticated Core,1.4.90,sophisticatedcore-1.21.1-1.4.90.2299.jar,,https://www.curseforge.com/minecraft/mc-mods/sophisticated-core,https://github.com/P3pp3rF1y/SophisticatedCore/issues
+structureessentials,Structure Essentials mod,5.0,structureessentials-1.21.1-5.0.jar,,,
+ritchiesprojectilelib,Ritchie's Projectile Library,2.1.2,ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar,,,https://github.com/Wagers-of-Industrial-Warfare/RitchiesProjectileLib/issues
+xaeroworldmap,Xaero's World Map,1.41.0,xaeroworldmap-neoforge-1.21.1-1.41.0.jar,,,
+cookingforblockheads,Cooking for Blockheads,21.1.23,cookingforblockheads-neoforge-1.21.1-21.1.23.jar,,https://mods.twelveiterations.com/minecraft/cookingforblockheads,https://github.com/TwelveIterations/CookingForBlockheads/issues
+citadel,Citadel,2.7.6,citadel-1.21.1-2.7.6.jar,,,
+alexsmobs,Alex's Mobs,1.22.17,alexsmobs-1.22.17.jar,,https://www.curseforge.com/minecraft/mc-mods/alexs-mobs,https://github.com/Alex-the-666/AlexsMobs/issues
+placebo,Placebo,9.9.2,Placebo-1.21.1-9.9.2.jar,,,
+apothic_attributes,Apothic Attributes,2.10.1,ApothicAttributes-1.21.1-2.10.1.jar,,,
+apotheosis,Apotheosis,8.7.0,Apotheosis-1.21.1-8.7.0.jar,,https://www.curseforge.com/minecraft/mc-mods/apotheosis,
+apoth_talisman_bag,Apotheosis Amulet Bag,1.21.1-1.0.3,apotheosis_amulet_bag-1.21.1-1.0.3.jar,,,
+apotheosis_modern_ragnarok,Apotheosis Modern Ragnarok: Zero,7.0.1,apotheosis_modern_ragnarok-neoforge-1.21.1-tacz1.1.8-7.0.1.jar,,,
+irons_apothic,Iron's Apothic,2.2.1,irons_apothic-2.2.1-PATCHED.jar,,,
+apothic_compat,Apothic Compat,2.0.2,apothic_compat-2.0.2.jar,,,https://github.com/Nightwielder23/apothic-compat/issues
+noapotheosisnames,No Apotheosis Names,1.0.1,noapotheosisnames-1.0.1.jar,,https://github.com/Hamderber/noapotheosisnames-1.21.1,
+fastfurnace,FastFurnace,9.0.1,FastFurnace-1.21.1-9.0.1.jar,,,
+lootintegrations,Lootintegrations mod,4.7,lootintegrations-1.21.1-4.7.jar,,,
+fastitemframes,Fast Item Frames,21.1.6,FastItemFrames-v21.1.6-1.21.1-NeoForge.jar,,https://github.com/Fuzss/fastitemframes,https://github.com/Fuzss/fastitemframes/issues
+eventslib,EventsLib,1.0.57,eventslib-1.0.57.jar,,https://www.curseforge.com/minecraft/mc-mods/eventslib,
+cobweb,Cobweb,1.4.0,cobweb-neoforge-1.21-1.4.0.jar,,https://github.com/crystal-nest/cobweb/tree/1.21,https://github.com/crystal-nest/cobweb/issues
+prometheus,Prometheus,1.2.5,prometheus-neoforge-1.21-1.2.5.jar,,https://github.com/crystal-nest/prometheus/tree/1.21,https://github.com/crystal-nest/prometheus/issues
+soul_fire_d,Soul Fire'd,6.1.0,soul-fire-d-neoforge-1.21-6.1.0.jar,,https://github.com/crystal-nest/soul-fire-d/tree/1.21,https://github.com/crystal-nest/soul-fire-d/issues
+bookshelf,Bookshelf,21.1.81,bookshelf-neoforge-1.21.1-21.1.81.jar,,https://www.curseforge.com/minecraft/mc-mods/bookshelf,https://github.com/Darkhax-Minecraft/Bookshelf/issues
+numismatics,Create: Numismatics,1.0.19integration+neoforge-mc1.21.1-local,CreateNumismatics-1.0.19integration+neoforge-mc1.21.1.jar,,,https://github.com/Layers-of-Railways/CreateNumismatics/issues
+simulated,Create Simulated,1.3.2,dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar,,,
+sophisticatedbackpacks,Sophisticated Backpacks,3.25.78,sophisticatedbackpacks-1.21.1-3.25.78.2107.jar,,https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks,https://github.com/P3pp3rF1y/SophisticatedBackpacks/issues
+relics,Relics,0.12.8,relics-1.21.1-0.12.8.jar,,https://www.curseforge.com/minecraft/mc-mods/relics-mod,https://discord.gg/pHren9yxzW
+createmetalwork,Create: Metalwork,2.0.0,createmetalwork-2.0.0.jar,,,
+wunderlib,WunderLib,21.0.10,wunderlib-21.0.10.jar,,https://github.com/quiqueck/WunderLib,https://github.com/quiqueck/WunderLib/issues
+mcwdoors,Macaw's Doors,1.1.5,mcw-doors-1.1.5-mc1.21.1neoforge.jar,,https://www.curseforge.com/minecraft/mc-mods/macaws-doors,
+nuggets,Nuggets,1.1.0.48,nuggets-neoforge-1.21.1-1.1.0.48.jar,,,
+extra_create_recipes,Extra Create Recipes,1,extra_create_recipes_1.21.1_v1.jar,,,
+melody,Melody,1.0.10,melody_neoforge_1.0.10_MC_1.21.jar,,,
+hazennstuff_patch,Hazen N Stuff Patch,1.0.0,hazennstuff_patch-1.0.0.jar,,,
+fzzy_config,Fzzy Config,0.7.6+1.21+neoforge,fzzy_config-0.7.6+1.21+neoforge.jar,,,https://github.com/fzzyhmstrs/fconfig/issues
+integration,Integration,0.2,integration-neoforge-0.2.jar,,,https://github.com/IAFEnvoy/Integration/issues
+trenzalore,Trenzalore,6.1.1,trenzalore-neo-6.1.1+mc1.21.1.jar,,,
+konkrete,Konkrete,1.9.9,konkrete_neoforge_1.9.9_MC_1.21.jar,,,
+createtreadmill,CreateTreadmill,1.13,createtreadmill-1.13.jar,,,
+taczpackupgrader,TaCZ Pack Upgrader,2.1.2,tacz-pack-upgrader-2.1.2-kff-dep-removed.jar,,,
+mrku_fix,Modern Ragnarok Kuroutil Fix,0.1.0,mrku_fix-0.1.0.jar,,,
+farmersdelight,Farmer's Delight,1.3.4,FarmersDelight-1.21.1-1.3.4.jar,,https://github.com/vectorwing/FarmersDelight,https://github.com/vectorwing/FarmersDelight/issues
+mcwbridges,Macaw's Bridges,3.1.2,mcw-bridges-3.1.2-mc1.21.1neoforge.jar,,https://www.curseforge.com/minecraft/mc-mods/macaws-bridges,
+ozymandias_sundries,Ozymandias Sundries,0.0.1,ozymandias_sundries-0.0.5-PATCHED.jar,,,
+chunky,Chunky,1.4.23,Chunky-NeoForge-1.4.23.jar,,https://github.com/pop4959/Chunky,https://github.com/pop4959/Chunky/issues
+mcwfences,Macaw's Fences and Walls,1.2.1,mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar,,https://www.curseforge.com/minecraft/mc-mods/macaws-fences-and-walls,
+fuelgoeshere,Fuel Goes Here,1.21.1-1.2.0,fuelgoeshere-1.21.1-1.2.0.jar,,,
+born_in_chaos_v1,Born in Chaos ,1.7.6,born_in_chaos_[Neoforge]_1.21.1_1.7.6.jar,,https://mcreator.net,
+lionfishapi,lionfishapi,3.1,lionfishapi-3.1.jar,,,
+gtbcs_spell_lib,GTBC's SpellLib,2.1.0-1.21.1,gtbcs_spell_lib-2.1.0-1.21.1.jar,,,
+leaky,leaky mod,2.4,leaky-1.21-2.4.jar,,,
+touhou_little_maid,Touhou Little Maid,1.5.3-neoforge+mc1.21.1,touhoulittlemaid-1.5.3-neoforge+mc1.21.1.jar,,https://discord.gg/re4xQtb,https://github.com/TartaricAcid/TouhouLittleMaid/issues
+cataclysm,L_Ender's Cataclysm 1.21.1,3.33,L_Ender_s Cataclysm 1.21.1-3.33.jar,,,
+patchouli,Patchouli,1.21.1-93-NEOFORGE,Patchouli-1.21.1-93-NEOFORGE.jar,,,https://github.com/VazkiiMods/Patchouli
+simplebedrockmodel,SimpleBedrockModel,2.2.1-neoforge+mc1.21.1,simplebedrockmodel-2.2.1-neoforge+mc1.21.1.jar,,,
+collective,Collective,8.25,collective-1.21.1-8.25.jar,,https://serilum.com/mod/collective,https://github.com/Serilum/.issue-tracker/labels/Library:%20Collective
+reliquified_irons_spells_and_spellbooks,Reliquified Iron's Spells 'n Spellbooks,0.2.7,reliquified_irons_spells_and_spellbooks-1.21.1-0.2.7.jar,,https://www.curseforge.com/minecraft/mc-mods/reliquified-irons-spells-n-spellbooks,https://discord.gg/pHren9yxzW
+resourcefullib,Resourceful Lib,3.0.12,resourcefullib-neoforge-1.21-3.0.12.jar,,,https://github.com/Team-Resourceful/ResourcefulLib/issues/new/choose
+createliquidfuel,Create Liquid Fuel,2.1.1-1.21.1,createliquidfuel-2.1.1-1.21.1.jar,,,
+deeperdarker,Deeper and Darker,1.4.1,deeperdarker-neoforge-1.21.1-1.4.1.jar,,,https://github.com/KyaniteMods/DeeperAndDarker/issues
+computercraft,CC: Tweaked,1.119.0,cc-tweaked-1.21.1-forge-1.119.0.jar,,https://tweaked.cc,https://github.com/cc-tweaked/CC-Tweaked/issues
+projectred_core,ProjectRed Core,4.22.0,ProjectRed-1.21.1-4.22.0-core.jar,,https://github.com/MrTJP/ProjectRed,https://github.com/MrTJP/ProjectRed
+projectred_integration,ProjectRed Integration,4.22.0,ProjectRed-1.21.1-4.22.0-integration.jar,,https://github.com/MrTJP/ProjectRed,https://github.com/MrTJP/ProjectRed
+projectred_expansion,ProjectRed Expansion,4.22.0,ProjectRed-1.21.1-4.22.0-expansion.jar,,https://github.com/MrTJP/ProjectRed,https://github.com/MrTJP/ProjectRed
+projectred_transmission,ProjectRed Transmission,4.22.0,ProjectRed-1.21.1-4.22.0-transmission.jar,,https://github.com/MrTJP/ProjectRed,https://github.com/MrTJP/ProjectRed
+projectred_fabrication,ProjectRed Fabrication,4.22.0,ProjectRed-1.21.1-4.22.0-fabrication.jar,,https://github.com/MrTJP/ProjectRed,https://github.com/MrTJP/ProjectRed
+projectred_illumination,ProjectRed Illumination,4.22.0,ProjectRed-1.21.1-4.22.0-illumination.jar,,https://github.com/MrTJP/ProjectRed,https://github.com/MrTJP/ProjectRed
+cupboard,Cupboard mod,4.1,cupboard-1.21.1-4.1.jar,,,
+mr_villager_guards,Villager Guards,1-v1.1.5,villager-guards-v1.1.5-1.21.1.jar,,https://modrinth.com/datapack/villager-guards,
+reliable_recipes,Reliable Recipes,2.1.0,reliable_recipes-neoforge-1.21.1-2.1.0.jar,,,https://github.com/evanbones/Reliable-Recipes/issues
+framework,Framework,0.13.11,framework-neoforge-1.21.1-0.13.11.jar,,https://mrcrayfish.com/mods?id=framework,
+codex_of_champions,Codex Of Champions,1.4.2,codex_of_champions-1.4.2.jar,,,
+letmedespawn,Let Me Despawn,1.5.0,letmedespawn-1.21.x-neoforge-1.5.0.jar,,,https://github.com/frikinjay/let-me-despawn/issues
+observable,Observable,5.4.4,observable-5.4.4.jar,,,https://github.com/tasgon/observable/issues
+atlas_api,Atlas API,1.21.1-1.2.0,atlas_api-1.21.1-1.2.0.jar,,,
+apotheosis_balance,Apotheosis Balance Configurator,2.1.0,apotheosis_balance-1.21.1-2.1.0.jar,,,
+irons_jewelry,Iron's Gems 'n Jewelry,1.21.1-2.0.2,irons_jewelry-1.21.1-2.0.2.jar,,,
+archean_rise,Archean Rise,0.3.20,archean-rise-neoforge-0.3.20.jar,,,
+esl,ESL,1.0.3,esl-neoforge-1.21.1-1.0.3+neoforge-mc1.21.1.jar,,https://antarcticgardens.org/,https://gitlab.com/antarcticgardens/esl/-/issues
+rhino,Rhino,2101.2.7-build.85,rhino-2101.2.7-build.85.jar,https://kubejs.com,https://kubejs.com,https://kubejs.com/support?source=rhino&mc=2101&loader=neoforge
+kubejs,KubeJS,2101.7.2-build.368,kubejs-neoforge-2101.7.2-build.368.jar,https://kubejs.com,https://kubejs.com,https://kubejs.com/support?source=kubejs&mc=2101&loader=neoforge
+taczjs,TaCZ JS,1.4.2+mc1.21.1,taczjs-neoforge-1.4.2+mc1.21.1.jar,,,https://github.com/gizmo-ds/taczjs-mod/issues
+truepower,True POWER,1.3.0,True_POWER-1.21.1-1.3.0.jar,,,
+owo,oωo,0.12.15.5-beta.1+1.21,owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar,,,
+cucumber,Cucumber Library,8.0.16,Cucumber-1.21.1-8.0.16.jar,,https://blakesmods.com/cucumber,
+sophisticatedstorage,Sophisticated Storage,1.5.91,sophisticatedstorage-1.21.1-1.5.91.2127.jar,,https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage,https://github.com/P3pp3rF1y/SophisticatedStorage/issues
+allthewizardgear,All the Wizard Gear,1.21.1-1.2.0,allthewizardgear-1.21.1-1.2.0.jar,,,
+copycats,Create: Copycats+,3.0.4+mc.1.21.1-neoforge,copycats-3.0.4+mc.1.21.1-neoforge.jar,,https://github.com/copycats-plus/copycats,https://github.com/copycats-plus/copycats/issues
+hazennstuff,Hazen N Stuff,1.4.0.14,hazennstuff-1.4.0.14.jar,,,
+mowzies_cataclysm,Mowzie's Cataclysm,1.2.2,mowzies_cataclysm-1.2.2.jar,,,
+createappliedkinetics,Create: Applied Kinetics,1.5.3-1.21.1,createappliedkinetics-1.5.3-1.21.1.jar,,,
+apprenticecodex,Apprentice's Codex,0.9.7,apprentice_codex-0.9.7+mc1.21.1.jar,,https://www.curseforge.com/minecraft/mc-mods/apprentices-codex,https://github.com/hexqua/apprentice_codex/issues
+xaerolib,XaeroLib,1.1.15,xaerolib-neoforge-1.21.1-1.1.15.jar,,,
+ponderjs,PonderJS,1.21.1-2.4.0,ponderjs-neoforge-1.21.1-2.4.0.jar,,,https://github.com/AlmostReliable/ponderjs/issues
+ambidexterity,Ambidexterity,1.21.1-1.0.2,ISS_Ambidexterity-1.21.1-1.0.2.jar,,,
+strongerfireboss,Stronger Fire Boss,2.0.0,strongerfireboss-2.0.0.jar,,,
+create,Create,6.0.10,create-1.21.1-6.0.10.jar,,https://www.curseforge.com/minecraft/mc-mods/create,https://github.com/Creators-of-Create/Create/issues
+rubberworks,Create: Rubberworks,1.1.2,rubberworks-neoforge-1.21.1-1.1.2.jar,,,
+createprism,Create: Prismatic Shine,1.2.2,createprism-1.2.2.jar,,,
+framedblocks,FramedBlocks,10.6.1,FramedBlocks-10.6.1.jar,,https://www.curseforge.com/minecraft/mc-mods/framedblocks,https://www.github.com/xfacthd/framedblocks
+extra_gauges,Create: Extra Gauges,2.1.2,extra_gauges-2.1.2.jar,,https://liukrast.net/,https://github.com/LIUKRAST/CreateExtraGauges/issues
+kubejs_create,KubeJS Create,2101.3.1-build.18,kubejs-create-neoforge-2101.3.1-build.18.jar,https://kubejs.com,https://kubejs.com,https://kubejs.com/support?source=kubejs_create&mc=2101&loader=neoforge
+createfood,Create: Food,2.5.0,createfood-neoforge-1.21.1-2.5.0.jar,,https://github.com/AverageAnime/create-food-multiloader,
+interiors,Create: Interiors,0.6.1,interiors-1.21.1-neoforge-0.6.1.jar,,https://www.curseforge.com/minecraft/mc-mods/interiors,https://github.com/aesefficio/CreateInteriorsMod/issues
+delightfulcreators,Delightful Creators,1.2,delightfulcreators-1.2.jar,,,
+compact_gearshift,Compact Gearshift,2.0.5,compact_gearshift-2.0.5.jar,,,
+tradeworks,Create: Tradeworks,1.0.7,tradeworks-1.0.7.jar,,https://liukrast.net/,https://github.com/LIUKRAST/Tradeworks/issues
+someassemblyrequired,Some Assembly Required,5.2.8,someassemblyrequired-5.2.8.jar,,https://www.curseforge.com/minecraft/mc-mods/some-assembly-required,https://github.com/ochotonida/some-assembly-required/issues
+taxfreelevels,Tax Free Levels,1.4.23,TaxFreeLevels-1.4.23-neoforge-1.21.1.jar,,https://www.curseforge.com/minecraft/mc-mods/tax-free-levels,https://github.com/Fourmisain/TaxFreeLevels/issues
+fastsuite,Fast Suite,6.0.7,FastSuite-1.21.1-6.0.7.jar,,,
+mcwpaintings,Macaw's Paintings,1.1.0,mcw-paintings-1.1.0-mc1.21.1neoforge.jar,,https://www.curseforge.com/minecraft/mc-mods/macaws-paintings,
+clumps,Clumps,19.0.0.1,Clumps-neoforge-1.21.1-19.0.0.1.jar,,https://www.curseforge.com/minecraft/mc-mods/clumps,https://github.com/jaredlll08/Clumps/issues
+artifacts,Artifacts,13.2.5,artifacts-neoforge-13.2.5.jar,,https://www.curseforge.com/minecraft/mc-mods/artifacts,https://github.com/ochotonida/artifacts/issues
+apotheoticcreation,Apotheosis/Create Addon,2.0.0,apotheoticcreation-2.0.0.jar,,,
+aeroclaims,Aeronautics Claims,0.9.0,aeroclaims-0.9.0.jar,,,
+cobblegengalore,Cobblegen Galore,1.21.1-0.2.8,cobblegengalore-1.21.1-0.2.8.jar,,,
+escalated,Create: Escalated,1.3.1,escalated-1.3.1-mc.1.21.1.jar,,,https://github.com/Create-In-Locomotion/Create-Escalated/issues
+guideme,GuideME,21.1.16,guideme-21.1.16.jar,,https://github.com/AppliedEnergistics/GuideME/,
+explorerscompass,Explorer's Compass,1.21.1-3.4.0-neoforge,ExplorersCompass-1.21.1-3.4.0-neoforge.jar,,https://github.com/MattCzyr/ExplorersCompass,https://github.com/MattCzyr/ExplorersCompass/issues
+mahoutsukai,Mahou Tsukai,1.21.1-v1.36.27,mahoutsukai-1.21.1-v1.36.27.jar,,,
+true_power_of_maid,True POWER of Maid,1.2.3-hotfix3,True_POWER_of_Maid-1.21.1-1.2.3-hotfix3.jar,,,
+terralith,Terralith,2.6.2,Terralith_1.21.1_v2.6.2_Neoforge.jar,,https://www.stardustlabs.net/,https://github.com/Stardust-Labs-MC/Terralith/issues
+pipezlagfix,PipezLagFix,1.1.0,pipezlagfix-1.21.1-1.1.0.jar,,,
+blueprint,Blueprint,8.1.0,blueprint-1.21.1-8.1.0.jar,,https://www.teamabnormals.com/mods/blueprint,https://github.com/team-abnormals/blueprint/issues
+gallery,Gallery,2.0.1,gallery-1.21.1-2.0.1.jar,,https://www.teamabnormals.com/mods/gallery,https://github.com/team-abnormals/gallery/issues
+aeronautics_curios_compat,Create Aeronautics Curios Compat,1.0,createaeronauticscurios-neoforge-1.21.1-1.0.jar,,,
+azurelib,AzureLib,3.1.11,azurelib-neo-1.21.1-3.1.11.jar,,https://modrinth.com/mod/azurelib,https://github.com/AzureDoom/AzureLib/issues
+xycraft_core,XyCraft Core,0.7.53,xycraft_core-0.7.53-all.jar,,,https://github.com/Soaryn/XyCraftTracker/issues
+tfmg,Create: The Factory Must Grow,1.2.2,tfmg-1.2.2.jar,,,
+craftingtweaks,Crafting Tweaks,21.1.10,craftingtweaks-neoforge-1.21.1-21.1.10.jar,,https://mods.twelveiterations.com/minecraft/craftingtweaks,https://github.com/TwelveIterations/CraftingTweaks/issues
+alexscaves,Alex's Caves,2.0.10,alexscaves-2.0.10.jar,,https://www.curseforge.com/minecraft/mc-mods/alexs-caves,https://github.com/AlexModGuy/AlexsCaves/issues
+dragonlib,DragonLib,1.21.1-beta-3.0.28,dragonlib-neoforge-1.21.1-beta-3.0.28.jar,,,https://github.com/MisterJulsen/MC-DragonLib2/issues
+architectury,Architectury,13.0.11,architectury-13.0.11-neoforge.jar,,,https://github.com/shedaniel/architectury/issues
+nerb,Not Enough Recipe Book,0.4.3,Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar,,,https://github.com/SSKirillSS/nerb/issues
+hellish_trials,Hellish Trials,1.0.5,HellishTrials-neoforge-1.0.5.jar,,,
+jamlib,JamLib,1.3.6+1.21.1,jamlib-neoforge-1.3.6+1.21.1.jar,,https://github.com/JamCoreModding/jamlib,https://github.com/JamCoreModding/jamlib/issues
+rightclickharvest,Right Click Harvest,4.6.1+1.21.1,rightclickharvest-neoforge-4.6.1+1.21.1.jar,,https://github.com/JamCoreModding/right-click-harvest,https://github.com/JamCoreModding/right-click-harvest/issues
+polylib,PolyLib,2100.1.0-build.183,polylib-2100.1.0-build.183-neoforge.jar,,,https://github.com/CreeperHost/PolyLib/issues
+octolib,OctoLib,0.6.2,OctoLib-NEOFORGE-0.6.2+1.21.jar,,,https://github.com/SSKirillSS/octo-lib/issues
+powergrid,Create: Power Grid,0.5.5.1,powergrid-mc1.21.1-0.5.5.1.jar,,,https://github.com/patryk3211/PowerGrid/issues
+uranus,Uranus,2.4.1,uranus-2.4.1-1.21.1-neoforge.jar,,,https://github.com/IAFEnvoy/Uranus/issues
+create_fantasizing,Create: Fantasizing Again,1.1.3,create_fantasizing-1.21.1-1.1.3.jar,,,
+enchdesc,EnchantmentDescriptions,21.1.10,enchdesc-neoforge-1.21.1-21.1.10.jar,,https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions,https://github.com/Darkhax-Minecraft/Enchantment-Descriptions/issues
+moonlight,Moonlight Lib,1.21.1-3.0.17,moonlight-neoforge-1.21.1-3.0.17.jar,https://www.curseforge.com/minecraft/mc-mods/selene,,https://github.com/MehVahdJukaar/moonlight/issues
+solmaid,Spice of Life: Maid,1.0.1,solmaid-1.0.1.jar,,,
+g3project_doors_reborn,G3Project Doors Reborn,1.0.0,g3project_doors_reborn-neo-1.0.6fix.jar,,,
+titanium,Titanium,4.0.43,titanium-1.21-4.0.43.jar,,,
+tessellate,Tessellate,1.2.12,tessellate-neoforge-1.2.12.jar,,,
+avaritia,Re-Avaritia,1.4.1,Re-Avaritia-neoforge-1.21.1-1.4.1-release.jar,,https://www.curseforge.com/minecraft/mc-mods/re-avaritia,https://github.com/Nova-Committee/Re-Avaritia/issues
+gunsmithlib_bundled_kotlin_stdlib,Kotlin Standard Librariey (GunsmithLib),1.0.0,GunsmithLib - 1.21+TaCZUnofficial.modules.gunsmithlib_bundled_kotlin_stdlib.jar,,,
+jade,Jade,15.10.5+neoforge,Jade-1.21.1-NeoForge-15.10.5.jar,,https://www.curseforge.com/minecraft/mc-mods/jade,
+ae2,Applied Energistics 2,19.2.17,appliedenergistics2-19.2.17.jar,,https://appliedenergistics.org,https://github.com/AppliedEnergistics/Applied-Energistics-2/issues
+extendedae,ExtendedAE,1.21-2.2.32-neoforge,ExtendedAE-1.21-2.2.32-neoforge.jar,,https://github.com/GlodBlock/ExtendedAE,
+constructionwand,Construction Wands Revived,4.0.0,ConstructionWandsRevived-1.21.1-4.0.0-NeoForge.jar,,https://www.curseforge.com/minecraft/mc-mods/construction-wands-revived,
+ae2netanalyser,AE2NetworkAnalyzer,1.21-2.1.5-neoforge,AE2NetworkAnalyzer-1.21-2.1.5-neoforge.jar,,https://github.com/GlodBlock/ExtendedAE,
+appflux,AppliedFlux,1.21-2.1.5-neoforge,AppliedFlux-1.21-2.1.5-neoforge.jar,,https://github.com/GlodBlock/ExtendedAE,
+ae2wtlib_api,AE2WTLib API,19.2.0,ae2wtlib_api-19.2.0.jar,,,https://github.com/Mari023/AE2WirelessTerminalLibrary/issues
+i_architecture,Create: Industrialized Architecture,0.1.1b,i_architecture-0.1.1b.jar,,,
+ae2things,AE2 Things,1.4.2-beta,AE2-Things-1.4.2-beta.jar,,https://www.curseforge.com/minecraft/mc-mods/ae2-things-forge,
+forbidden_arcanus,Forbidden Arcanus,2.6.1,forbidden_arcanus-2.6.1.jar,,,
+tacz_aero_compat,TACZ Aero Compat,1.8.0,tacz_aero_compat-1.8.0.jar,,,
+sable,Sable,2.0.5,sable-neoforge-1.21.1-2.0.5.jar,,,https://github.com/ryanhcode/sable/issues
+aeronautics_utility_objects,Create Aeronautics: Transmission & Linkage,0.2.7,create_aeronautics_transmission_linkage-0.2.7.jar,,,
+muhc,MaidUseHandCrank,1.6.2,MaidUseHandCrank_1.6.2-neoforge_21.1.219-1.21.1.jar,,,
+aeroworks,Create: Aeroworks,1.2.11,aeroworks-1.2.11.jar,,,
+climbable_ropes,Climbable Ropes for Create Aeronautics,2.0.1,climbable_ropes-2.0.1.jar,,https://github.com/matejhozlar/Create-Aeronautics-Climbable-Ropes,
+sable_schematic_api,Sable Photomancy,1.0.1,sable-photomancy-1.0.1.jar,,https://github.com/Rew1nd-dev/sable-schematic-api,https://github.com/Rew1nd-dev/sable-schematic-api/issues
+synaxis,Synaxis,1.5.0,synaxis-1.5.0.jar,,,
+createpropulsion,Create Propulsion: Simulated,1.1.4,createpropulsion-1.1.4.jar,,https://modrinth.com/mod/create-propulsion,
+tacz,Timeless & Classics Guns: Zero,1.1.8-hotfix-r6,tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar,,,
+lrtactical,LesRaisins Tactical Equipments,0.4.3,LesRaisins-Tactical-Equipements-1.21.1-0.4.3.jar,,,https://github.com/LesRaisins/LesRaisins-Tactical-Equipements/issues
+taczaddon,TACZ-addon,1.1.8,taczaddon-1.1.8-fix2-1.21.1-neoforge.jar,,,
+tacz_refit,TACZ Refit,0.0.4,tacz_refit-1.21.1-v004.jar,,,
+aeroengineering,AeroEngine,1.0.2,AeroEngine-1.3.0.jar,,,
+easy_villagers,Easy Villagers,1.21.1-1.1.42,easy-villagers-neoforge-1.21.1-1.1.42.jar,,https://www.curseforge.com/minecraft/mc-mods/easy-villagers,https://github.com/henkelmax/easy-villagers/issues
+immersive_furniture,Immersive Furniture,0.3.3+1.21.1,immersive_furniture-neoforge-0.3.3+1.21.1.jar,,https://conczin.net/,https://github.com/Luke100000/ImmersiveFurniture/issues
+deployer,Deployer,0.1.2,deployer-0.1.2.jar,,https://liukrast.net/,https://github.com/LIUKRAST/Deployer/issues
+create_sa,Create Stuff 'N Additions,2.1.3,create-stuff-additions1.21.1_v2.1.3.jar,,https://www.curseforge.com/minecraft/mc-mods/create-stuff-additions,
+sable_sa_compat,Sable: Stuff&Additions Compatibility,1.0.3,SableStuffAdditionsCompat v1.0.3-1.21.1.jar,,,
+polyeng,Polymorphic Energistics,0.4.1,polyeng-0.4.1.jar,,,https://github.com/62832/PolymorphicEnergistics/issues
+ncx_tacadd,NCX Tactical Additions,1.3.4,ncx_tacadd-1.3.4-neoforge-1.21.1.jar,,https://mcreator.net,
+parcool,ParCool!,3.4.3.3,ParCool-1.21.1-3.4.3.3-NF.jar,,https://www.curseforge.com/minecraft/mc-mods/parcool,https://github.com/alRex-U/ParCool/issues
+immersive_paintings,Immersive Paintings,0.7.8,immersive_paintings-neoforge-1.21.1-0.7.8.jar,,https://conczin.net/,https://github.com/Luke100000/immersivePaintings/issues
+irons_spellbooks,Iron's Spells 'n Spellbooks,1.21.1-3.16.3,irons_spellbooks-1.21.1-3.16.3.jar,,https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks,https://github.com/iron431/Irons-Spells-n-Spellbooks/issues
+alshanex_familiars,Alshanex's Familiars Mod,1.21.1_v4.0.3,alshanex_familiars-1.21.1_v4.0.3.jar,,,
+iss_ponder,Irons Spell Scroll Ponder,1.0.3,iss_ponder-neoforge1.21.1-1.0.3.jar,,,
+gametechbcs_spellbooks,GameTechBC's Spellbooks,3.0.0-1.21.1,gametechbcs_spellbooks-3.0.0-1.21.1.jar,,https://www.curseforge.com/minecraft/mc-mods/gtbcs-spellbooks,https://discord.gg/BKyvxfdykN
+somakespells,Somake,1.0.8,somakespells-1.0.8-1.21.1-fix.jar,,,
+touhou_little_maid_spell,Touhou Little Maid: Spell,1.8.4-neoforge,touhou_little_maid_spell-1.21.1-1.8.4-neoforge.jar,,,
+fallen_gems_affixes,Fallen Gems Affixes,1.0.0,fallen_gems_affixes-1.21.1-1.0.0.jar,,https://github.com/KiraKayn/Fallen-Gems-Affixes,
+additional_attributes,Additional Attributes,1.2.2,additional_attributes-1.21.1-1.2.2.jar,,,https://github.com/SiverDX/additional_attributes/issues
+spelltrigger,Spell Trigger,1.2.0,SpellTrigger-NeoForge-1.21.1-1.2.0.jar,,,
+createaddoncompatibility,Create: Addon Compatibility,1.0.0,createaddoncompatibility-neoforge-1.21.1-1.0.0.jar,,https://modrinth.com/mod/createaddoncompatibility,https://github.com/Amronos/createaddoncompatibility/issues/
+customrecipes,自定义配方,0.4.0,customrecipes-0.4.0.jar,,,
+modonomicon,Modonomicon,1.120.1,modonomicon-1.21.1-neoforge-1.120.1.jar,,https://www.curseforge.com/minecraft/mc-mods/modonomicon,https://github.com/klikli-dev/modonomicon/issues
+coroutil,CoroUtil,1.21.0-1.3.9,coroutil-neoforge-1.21.0-1.3.9.jar,,,
+confluence_magic_lib,Confluence Magic Lib,0.1.0,org.confluence.lib.confluence_magic_lib-0.1.0.jar,,,
+betteradvancedtooltips,Better Advanced Tooltips,2101.1.0-build.1,better-advanced-tooltips-2101.1.0-build.1.jar,,,
+ferritecore,Ferrite Core,7.0.3,ferritecore-7.0.3-neoforge.jar,,,
+yet_another_config_lib_v3,YetAnotherConfigLib,3.8.2+1.21.1-neoforge,yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar,,,
+solcarrot,Spice of Life: Carrot Edition,1.16.6,solcarrot-1.21.1-1.16.6.jar,,,https://github.com/Cazsius/Spice-of-Life-Carrot-Edition/issues
+moredragoneggs,More Dragon Eggs,5.0,moredragoneggs-5.0.jar,,,
+create_generators,Create: Generators,1.2.5,create_generators-1.2.5-neoforge-1.21.1.jar,,https://www.curseforge.com/members/robinfrt/projects,
+modularrouters,Modular Routers,13.2.5,modular-routers-13.2.5+mc1.21.1.jar,,,https://github.com/desht/ModularRouters/issues
+aoc,All of Create Core,2,Aoc_Core_1.21_v2.jar,,,
+expandability,ExpandAbility,12.0.0,expandability-neoforge-12.0.0.jar,,,https://github.com/florensie/expandability/issues
+valhelsia_core,Valhelsia Core,1.1.5,valhelsia_core-neoforge-1.21.1-1.1.5.jar,,,
+skinrestorer,SkinRestorer,2.10.0+1.21-neoforge,skinrestorer-2.10.0+1.21-neoforge.jar,,https://modrinth.com/mod/skinrestorer,https://github.com/Suiranoil/SkinRestorer/issues
+createaddition,Create Crafts & Additions,1.7.0,createaddition-1.7.0.jar,,https://github.com/mrh0/createaddition,https://github.com/mrh0/createaddition/issues
+winefoxs_spellbooks,Winefox's Spellbooks,1.0.1,winefoxs_spellbooks-1.21.1-1.0.1.jar,,https://github.com/mium-magic-server/winefoxs_spellbooks,
+tacz_c,Timeless and Classics Zero: Creatified,1.0.2+neoforge.1.21.1,tacz_c-1.0.2+neoforge.1.21.1.jar,,,

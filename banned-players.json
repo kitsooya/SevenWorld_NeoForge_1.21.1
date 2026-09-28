@@ -1,0 +1,18 @@
+[
+  {
+    "uuid": "d807f7d2-7d44-351b-b844-d8ee4275dc42",
+    "name": "Puro_4_ka",
+    "created": "2026-09-20 11:07:06 +0300",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Аккаунт заблокирован за нарушение правил сообщества."
+  },
+  {
+    "uuid": "30129929-3308-3da3-bfd8-beb05b2a7a6b",
+    "name": "Zerbruv",
+    "created": "2026-09-07 14:29:08 +0300",
+    "source": "kitsooya",
+    "expires": "forever",
+    "reason": "Аккаунт заблокирован для безопасности сервера."
+  }
+]

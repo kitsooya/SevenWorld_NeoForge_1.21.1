@@ -1,3 +1,4 @@
+```js
 // ============================================================
 // SevenWorld - hydration
 // Counts only ONLINE time.
@@ -42,7 +43,7 @@
         if (!stack || stack.isEmpty()) return false
 
         try {
-            if (stack.is('#sevenworld:drinkable')) return true
+            if (Ingredient.of('#sevenworld:drinkable').test(stack)) return true
         } catch (e) {
             // Tag lookup failure should not prevent normal drink detection.
         }
@@ -112,3 +113,4 @@
         }
     })
 })()
+```

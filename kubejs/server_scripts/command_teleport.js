@@ -42,7 +42,7 @@
             x: player.x,
             y: player.y,
             z: player.z,
-            dimension: String(player.level.dimension().location())
+            dimension: String(player.level.dimension.location())
         }
     }
 
@@ -78,6 +78,7 @@
                             }
 
                             var cooldownUntil = requester.persistentData.getLong('sevenworld_tpa_cooldown_until')
+
                             if (cooldownUntil > current) {
                                 requester.tell('§cТелепортация пока недоступна.')
                                 return 0
@@ -94,9 +95,20 @@
                             outgoing.set(requesterUuid, request)
                             incoming.set(targetUuid, request)
 
-                            requester.tell('§aЗапрос на телепортацию отправлен игроку ' + target.username + '.')
-                            target.tell('§e' + requester.username + ' хочет телепортироваться к вам.')
+                            requester.tell(
+                                '§aЗапрос на телепортацию отправлен игроку ' +
+                                target.username +
+                                '.'
+                            )
+
+                            target.tell(
+                                '§e' +
+                                requester.username +
+                                ' хочет телепортироваться к вам.'
+                            )
+
                             target.tell('§7Используйте /tpaccept или /tpdeny.')
+
                             return 1
                         })
                 )
@@ -116,14 +128,25 @@
                     }
 
                     var requester = request.requester
+
                     if (!requester || !requester.isAlive()) {
-                        cancelRequest(request, '§cЗапрос TPA больше недействителен.')
+                        cancelRequest(
+                            request,
+                            '§cЗапрос TPA больше недействителен.'
+                        )
                         return 0
                     }
 
-                    var cooldownUntil = requester.persistentData.getLong('sevenworld_tpa_cooldown_until')
+                    var cooldownUntil =
+                        requester.persistentData.getLong(
+                            'sevenworld_tpa_cooldown_until'
+                        )
+
                     if (cooldownUntil > now()) {
-                        cancelRequest(request, '§cУ отправителя ещё действует перезарядка телепортации.')
+                        cancelRequest(
+                            request,
+                            '§cУ отправителя ещё действует перезарядка телепортации.'
+                        )
                         return 0
                     }
 
@@ -131,6 +154,7 @@
                     incoming.delete(request.targetUuid)
 
                     var start = currentPosition(requester)
+
                     teleporting.set(request.requesterUuid, {
                         requester: requester,
                         target: target,
@@ -139,8 +163,12 @@
                         start: start
                     })
 
-                    requester.tell('§eТелепортация начнётся через 5 секунд. Не двигайтесь.')
+                    requester.tell(
+                        '§eТелепортация начнётся через 5 секунд. Не двигайтесь.'
+                    )
+
                     target.tell('§aЗапрос TPA принят.')
+
                     return 1
                 })
         )
@@ -157,7 +185,11 @@
                         return 0
                     }
 
-                    cancelRequest(request, '§cЗапрос на телепортацию отклонён.')
+                    cancelRequest(
+                        request,
+                        '§cЗапрос на телепортацию отклонён.'
+                    )
+
                     return 1
                 })
         )
@@ -168,7 +200,10 @@
 
         outgoing.forEach((request, key) => {
             if (request.expiresAt <= current) {
-                cancelRequest(request, '§7Запрос на телепортацию истёк.')
+                cancelRequest(
+                    request,
+                    '§7Запрос на телепортацию истёк.'
+                )
             }
         })
 
@@ -180,31 +215,61 @@
                 return
             }
 
-            var movedDimension = String(player.level.dimension().location()) !== tp.start.dimension
-            var moved = player.x !== tp.start.x || player.y !== tp.start.y || player.z !== tp.start.z
+            var movedDimension =
+                String(player.level.dimension.location()) !==
+                tp.start.dimension
+
+            var moved =
+                player.x !== tp.start.x ||
+                player.y !== tp.start.y ||
+                player.z !== tp.start.z
 
             if (movedDimension || moved) {
-                cancelRequest(tp, '§cТелепортация отменена: вы двинулись.')
+                cancelRequest(
+                    tp,
+                    '§cТелепортация отменена: вы двинулись.'
+                )
                 return
             }
 
             tp.remaining--
+
             if (tp.remaining > 0) return
 
-            var dimension = String(tp.target.level.dimension().location())
+            var dimension =
+                String(tp.target.level.dimension.location())
+
             var x = tp.target.x
             var y = tp.target.y
             var z = tp.target.z
 
             event.server.runCommandSilent(
-                'execute in ' + dimension + ' run tp ' + player.username + ' ' + x + ' ' + y + ' ' + z
+                'execute in ' +
+                dimension +
+                ' run tp ' +
+                player.username +
+                ' ' +
+                x +
+                ' ' +
+                y +
+                ' ' +
+                z
             )
 
-            player.persistentData.putLong('sevenworld_tpa_cooldown_until', current + COOLDOWN_MS)
+            player.persistentData.putLong(
+                'sevenworld_tpa_cooldown_until',
+                current + COOLDOWN_MS
+            )
+
             teleporting.delete(key)
 
             player.tell('§aТелепортация выполнена.')
-            tp.target.tell('§aИгрок ' + player.username + ' телепортирован к вам.')
+
+            tp.target.tell(
+                '§aИгрок ' +
+                player.username +
+                ' телепортирован к вам.'
+            )
         })
     })
 
@@ -213,12 +278,30 @@
         var uuid = uuidOf(player)
 
         var request = outgoing.get(uuid)
-        if (request) cancelRequest(request, '§7Запрос TPA отменён: игрок вышел с сервера.')
+
+        if (request) {
+            cancelRequest(
+                request,
+                '§7Запрос TPA отменён: игрок вышел с сервера.'
+            )
+        }
 
         request = incoming.get(uuid)
-        if (request) cancelRequest(request, '§7Запрос TPA отменён: игрок вышел с сервера.')
+
+        if (request) {
+            cancelRequest(
+                request,
+                '§7Запрос TPA отменён: игрок вышел с сервера.'
+            )
+        }
 
         var tp = teleporting.get(uuid)
-        if (tp) cancelRequest(tp, '§7Телепортация отменена: игрок вышел с сервера.')
+
+        if (tp) {
+            cancelRequest(
+                tp,
+                '§7Телепортация отменена: игрок вышел с сервера.'
+            )
+        }
     })
 })()

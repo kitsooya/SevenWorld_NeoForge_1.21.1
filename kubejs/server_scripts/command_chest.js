@@ -2,50 +2,45 @@
 // SevenWorld /chest
 // Opens the player's Ender Chest inventory.
 //
-// After closing:
-//   - 10-second post-use window starts.
-//   - During this window /chest can reopen the GUI.
-//   - Closing it again resets the 10-second window.
+// After opening:
+//   - Ender Chest immediately enters a 5-minute cooldown.
+//   - Closing the GUI does NOT affect the cooldown.
 //
-// If the 10-second window expires:
-//   - 10-minute cooldown starts.
+// Command cooldown:
+//   - /chest can only be processed once every 30 seconds.
+//   - Repeated attempts during this cooldown do nothing.
+//
+// During Ender Chest cooldown:
+//   - Opening is blocked.
+//   - Player receives the actual remaining time.
 //
 // Timestamps are persisted, so relog/server restart cannot
 // bypass the cooldown.
 // ============================================================
 
 (function () {
-    var POST_USE_MS = 10 * 1000
-    var COOLDOWN_MS = 10 * 60 * 1000
+    var CHEST_COOLDOWN_MS = 5 * 60 * 1000
+    var COMMAND_COOLDOWN_MS = 30 * 1000
 
     function now() {
         return Date.now()
     }
 
-    function beginPostUse(player) {
-        var data = player.persistentData
-        var until = now() + POST_USE_MS
+    function formatRemaining(ms) {
+        var totalSeconds = Math.ceil(ms / 1000)
 
-        data.putLong('sevenworld_chest_post_use_until', until)
+        var minutes = Math.floor(totalSeconds / 60)
+        var seconds = totalSeconds % 60
 
-        player.tell('§eЭндер-сундук будет недоступен через 10 секунд.')
-    }
+        if (minutes > 0) {
+            if (seconds > 0) {
+                return minutes + ' мин. ' + seconds + ' сек.'
+            }
 
-    function finishPostUseIfExpired(player, current) {
-        var data = player.persistentData
-        var postUseUntil = data.getLong('sevenworld_chest_post_use_until')
-
-        if (postUseUntil > 0 && postUseUntil <= current) {
-            data.putLong('sevenworld_chest_post_use_until', 0)
-            data.putLong(
-                'sevenworld_chest_cooldown_until',
-                current + COOLDOWN_MS
-            )
-
-            return true
+            return minutes + ' мин.'
         }
 
-        return false
+        return seconds + ' сек.'
     }
 
     ServerEvents.basicCommand('chest', event => {
@@ -53,48 +48,48 @@
         var data = player.persistentData
         var current = now()
 
-        // First, check whether the 10-second window has expired.
-        // If yes, convert it into the 10-minute cooldown.
-        finishPostUseIfExpired(player, current)
-
-        var postUseUntil = data.getLong('sevenworld_chest_post_use_until')
-
         // --------------------------------------------------------
-        // 10-second post-use window.
+        // 30-second command cooldown.
         //
-        // IMPORTANT:
-        // During this period the chest IS allowed to open again.
-        // We do NOT block the command.
+        // Repeated calls during this period do absolutely nothing.
         // --------------------------------------------------------
 
-        if (postUseUntil > current) {
-            data.putLong('sevenworld_chest_post_use_until', 0)
+        var commandCooldownUntil = data.getLong(
+            'sevenworld_chest_command_cooldown_until'
+        )
 
-            player.openInventoryGUI(
-                player.getEnderChestInventory(),
-                Text.of('Эндер-сундук'),
-                9,
-                3
-            )
-
-            data.putBoolean('sevenworld_chest_opened', true)
-
+        if (commandCooldownUntil > current) {
             return
         }
 
+        // Start the 30-second command cooldown immediately.
+        data.putLong(
+            'sevenworld_chest_command_cooldown_until',
+            current + COMMAND_COOLDOWN_MS
+        )
+
         // --------------------------------------------------------
-        // 10-minute cooldown.
+        // 5-minute Ender Chest cooldown.
         // --------------------------------------------------------
 
-        var cooldownUntil = data.getLong('sevenworld_chest_cooldown_until')
+        var cooldownUntil = data.getLong(
+            'sevenworld_chest_cooldown_until'
+        )
 
         if (cooldownUntil > current) {
-            player.tell('§7Эндер-сундук пока недоступен.')
+            var remaining = cooldownUntil - current
+
+            player.tell(
+                '§7Эндер-сундук будет доступен через ' +
+                formatRemaining(remaining) +
+                '.'
+            )
+
             return
         }
 
         // --------------------------------------------------------
-        // Normal opening.
+        // Open Ender Chest.
         // --------------------------------------------------------
 
         player.openInventoryGUI(
@@ -104,32 +99,20 @@
             3
         )
 
-        data.putBoolean('sevenworld_chest_opened', true)
-    })
+        // --------------------------------------------------------
+        // Cooldown starts IMMEDIATELY when the chest is opened.
+        // --------------------------------------------------------
 
-    PlayerEvents.inventoryClosed(event => {
-        var player = event.player
-        var data = player.persistentData
-
-        if (!data.getBoolean('sevenworld_chest_opened')) return
-
-        data.putBoolean('sevenworld_chest_opened', false)
-
-        // Every time the GUI is closed, start/reset the
-        // 10-second post-use window.
-        beginPostUse(player)
-    })
-
-    PlayerEvents.loggedIn(event => {
-        // Prevent a stale flag from causing the first inventory
-        // closed after reconnect to trigger the chest timer.
-        event.player.persistentData.putBoolean(
-            'sevenworld_chest_opened',
-            false
+        data.putLong(
+            'sevenworld_chest_cooldown_until',
+            current + CHEST_COOLDOWN_MS
         )
     })
 
-    PlayerEvents.tick(event => {
-        finishPostUseIfExpired(event.player, now())
+    PlayerEvents.loggedIn(event => {
+        // No temporary "opened" flag is required anymore.
+        //
+        // Both cooldowns are stored in persistentData and therefore
+        // survive relogs and server restarts.
     })
 })()

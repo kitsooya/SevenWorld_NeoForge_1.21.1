@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.sevenworld.slashbladepatch.mixin",
+  "refmap": "sevenworld_slashblade_patch.refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AttackablePredicateMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
